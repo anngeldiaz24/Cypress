@@ -1,3 +1,6 @@
+//Autocompletion
+/// <reference types="Cypress" />
+
 //How to add an environment variable
 ///In the console: npx cypress open --env MY_ENV_VARIABLE="HELLO"
 describe('Basic page interactions', () => {
@@ -40,5 +43,8 @@ describe('Basic page interactions', () => {
     //.should('contain');
     //.should('have.class', 'list-item-selected');
     //.should('have.css', 'background-color', 'blue');
+
+    //Use especial characters
+    //.type('{ENTER}')
   });
 })
